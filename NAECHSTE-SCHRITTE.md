@@ -5,7 +5,8 @@ Stand: 15.09.2026, abends
 ## Was steht
 - Angebot festgelegt in ANGEBOT.md (Interview in fünf Stufen, alles von Felix bestätigt)
 - Seite gebaut in site/, Stil wie Doorway, Veröffentlichung über Actions-Workflow
-- Repo Felix3c/sprint, Seite unter https://felix3c.github.io/sprint/
+- Repo Felix3c/sprint, Seite LIVE seit 15.09.2026 abends unter https://felix3c.github.io/sprint/
+  (Pages-Quelle in den Repo-Einstellungen auf "GitHub Actions" gestellt, der Workflow kann das nicht selbst)
 
 ## Offen, in dieser Reihenfolge
 1. **Impressum vervollständigen** (site/impressum.html, Anschrift fehlt). Vorher den

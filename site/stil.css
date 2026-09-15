@@ -1,0 +1,109 @@
+/* Der Sprint — gleiche Familie wie Doorway: eine Akzentfarbe, 8-px-Raster, ruhige Schrift. */
+
+:root {
+  --akzent-h: 24;
+  --akzent: hsl(var(--akzent-h) 70% 38%);
+  --akzent-hell: hsl(var(--akzent-h) 60% 95%);
+  --akzent-rand: hsl(var(--akzent-h) 50% 80%);
+  --tinte: #17202a;
+  --text-2: #4b5563;
+  --text-3: #6b7280;
+  --linie: #e3e6ea;
+  --flaeche: #ffffff;
+  --grund: #f7f8fa;
+  --schatten: 0 1px 2px rgb(0 0 0 / 0.05), 0 4px 12px rgb(0 0 0 / 0.04);
+  --radius: 10px;
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px; --sp-6: 24px; --sp-8: 32px; --sp-12: 48px; --sp-16: 64px;
+  --mono: ui-monospace, "Cascadia Mono", Consolas, "SF Mono", monospace;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --akzent: hsl(var(--akzent-h) 75% 62%);
+    --akzent-hell: hsl(var(--akzent-h) 35% 16%);
+    --akzent-rand: hsl(var(--akzent-h) 35% 30%);
+    --tinte: #e6e8eb;
+    --text-2: #b4bac2;
+    --text-3: #8b929b;
+    --linie: #2a3038;
+    --flaeche: #181c21;
+    --grund: #111418;
+    --schatten: 0 1px 2px rgb(0 0 0 / 0.4);
+  }
+}
+
+* { box-sizing: border-box; }
+html { background: var(--grund); }
+body {
+  margin: 0;
+  color: var(--tinte);
+  background: var(--grund);
+  font: 17px/1.6 var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--akzent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { text-decoration-thickness: 2px; }
+
+header {
+  background: var(--flaeche);
+  border-bottom: 1px solid var(--linie);
+  padding: var(--sp-12) var(--sp-4) var(--sp-8);
+}
+header > * { max-width: 44rem; margin-left: auto; margin-right: auto; }
+header h1 {
+  margin: 0 0 var(--sp-2);
+  font-size: clamp(2rem, 1.5rem + 2vw, 2.8rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--akzent);
+}
+.claim { margin: 0 0 var(--sp-4); font-size: 1.25rem; color: var(--text-2); }
+.stand {
+  display: inline-block;
+  font: 0.8rem/1.4 var(--mono);
+  color: var(--text-3);
+  background: var(--grund);
+  border: 1px solid var(--linie);
+  border-radius: 999px;
+  padding: var(--sp-1) var(--sp-3);
+}
+
+main { max-width: 44rem; margin: 0 auto; padding: var(--sp-8) var(--sp-4) var(--sp-16); }
+section { margin-bottom: var(--sp-12); }
+h2 { font-size: 1.35rem; margin: 0 0 var(--sp-3); letter-spacing: -0.01em; }
+p { margin: 0 0 var(--sp-3); }
+
+.wochen { padding-left: 1.2em; margin: 0; }
+.wochen li { margin-bottom: var(--sp-3); }
+
+.karten { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: var(--sp-4); }
+.karte {
+  background: var(--flaeche);
+  border: 1px solid var(--linie);
+  border-radius: var(--radius);
+  box-shadow: var(--schatten);
+  padding: var(--sp-6);
+}
+.karte h2 { font-size: 1rem; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.06em; }
+.zahl { font-size: 2.2rem; font-weight: 700; color: var(--akzent); margin-bottom: var(--sp-2); }
+
+.frage {
+  background: var(--akzent-hell);
+  border: 1px solid var(--akzent-rand);
+  border-radius: var(--radius);
+  padding: var(--sp-6);
+}
+.frage h2 { color: var(--akzent); }
+.gross { font-size: 1.5rem; font-weight: 600; line-height: 1.3; }
+
+.belege { padding-left: 1.2em; }
+.belege li { margin-bottom: var(--sp-2); }
+
+footer {
+  border-top: 1px solid var(--linie);
+  padding: var(--sp-6) var(--sp-4);
+  font-size: 0.9rem;
+  color: var(--text-3);
+  text-align: center;
+}

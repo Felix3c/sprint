@@ -35,7 +35,7 @@ felix3c.github.io/doorway, felix3c.github.io/festgehalten.
 
 ## Preis
 
-- 3.000 € pro Kunde, voll, auch in der Pilotrunde
+- 3.000 € pro Kunde, voll, auch in der Pilotrunde; ohne Umsatzsteuer, Kleinunternehmer nach § 19 UStG (Felix' Angabe im ELSTER-Fragebogen 16.09.2026; nie „netto“ schreiben, es kommt nichts drauf)
 - Nebenkosten offen nennen: eigenes Claude-Abo des Kunden, 100–200 € im Monat
 - Pilotkunden räumen das Recht ein, den Fall öffentlich zu beschreiben
   (Vorher/Nachher)

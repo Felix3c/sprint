@@ -1,64 +1,43 @@
 # Der Sprint — Nächste Schritte
 
-**Stand:** 15.09.2026 (Angebot im Interview festgelegt, Seite gebaut und live gestellt)
-**Führendes Dokument:** ~/sprint/ANGEBOT.md
-**Phase:** Angebot steht, Seite live, null Kunden. Es fehlt der erste Pilotkunde.
+**Stand:** 09.10.2026 00:35 (Dauerlauf, Tagesprüfung: alle Kandidaten live geprüft, unverändert zum 08.10. (Nr 4 und 6 weiter gelöscht, „reserviert“ bei Nr 16 nur im Anzeigentext), Nr 17 live, Sprint-Seite HTTP 200; Datum in Nr 13 und Nr 16 auf 09.10. gebracht (Nr 13 jetzt „gut dreizehn Wochen“, 92 Tage seit 09.07.)). Davor 08.10.2026 20:27 (Dauerlauf, Abend-Prüfung: alle sieben Sende-Links und Nr 17 live, Seite 200, Frage 198 weiter offen). Davor 08.10.2026 08:20 (Dauerlauf, Suche seit 03.10.: Nr 17 neu, Frage 198). Davor 08.10.2026 00:10 (Dauerlauf, Tagesprüfung: alle Kandidaten live geprüft, unverändert zum 07.10. (Nr 4 und 6 weiter gelöscht, Nr 14/15 gestrichen, aber online), Sprint-Seite HTTP 200; Daten in Nr 13/16 auf 08.10. (KONTAKTE.md und intern/SENDEN.md), Wette 20: 23 Tage). Davor 07.10.2026 08:00 (Dauerlauf, Tagesprüfung: alle Kandidaten live geprüft, unverändert zum 06.10. (Nr 4 und 6 weiter gelöscht), Sprint-Seite HTTP 200; Daten in Nr 13/16 auf 07.10. (KONTAKTE.md und intern/SENDEN.md), Wette 20: 24 Tage). Davor 06.10.2026 18:15 (Tagesprüfung: alle Kandidaten mit Ziel-URL und Titel geprüft, Stand wie 05.10.: Kleinanzeigen Nr 2, 3, 5, 7, 8, 10–16, R5, R6 live, Nr 4 und 6 bleiben gelöscht; Shopify-Threads Nr 1 und R1–R4 online, Shop-Link Nr 1 weiter 404; Nr 9 (Mastodon) online, die Adresse leitet auf `/notice/…` derselben Instanz um, gleicher Post. Datumsstellen in Nr 13 und Nr 16 auf 06.10. gezogen, in `KONTAKTE.md` und `intern/SENDEN.md`. Weiter nichts gesendet, also keine Antworten. Wette 20: noch 25 Tage) · 05.10.2026 17:20 (Felix: „alles für den Sprint vorbereiten“. Neu `intern/` (gitignored): `SENDEN.md` sieben Texte mit Link in Sendereihenfolge, alle sieben 17:10 live geprüft; `GESPRAECH.md` zweite Nachricht, Erstgespräch, Einwände; `VEREINBARUNG.md`, `RECHNUNG.md`, `WOCHE-1.md` als Vorlagen. Offen: Steuernummer für die Rechnung, FernUSG-Frage vor der ersten Unterschrift, IBAN. Weiter nichts gesendet) · 05.10.2026 00:20 (Dauerlauf, Tagesprüfung: alle Links live mit Ziel-URL geprüft, Stand wie 04.10. (Nr 4/6 bleiben gelöscht, Shopify-Threads per JSON offen, Nr 1 Shop-Link 404, Nr 16 aktiv, nicht reserviert); Zeitangaben in Nr 13 und Grenzfall 16 auf 05.10.; nichts gesendet, keine Antworten; Wette 20: noch 26 Tage) · 04.10.2026 00:35 (Dauerlauf, Tagesprüfung: alle Links live mit Ziel-URL geprüft, Stand wie 03.10. (Nr 4/6 bleiben gelöscht, Shopify-Threads per JSON offen, Nr 16 aktiv, nicht reserviert); Zeitangaben in Nr 13 und Grenzfall 16 auf 04.10.; nichts gesendet, keine Antworten; Wette 20: noch 27 Tage) · 03.10.2026 18:55 (Dauerlauf: Frage 28 steht → nur Nr 16 Düsseldorf freigegeben (Felix sendet, Entwurf „Grenzfall 03.10.2026“ in KONTAKTE.md), Raster bleibt, nächster Suchlauf ~10.10.) · 03.10.2026 15:45 (Dauerlauf: Kandidatensuche, 0 neue im Raster, Grenzfall Nr 16 Düsseldorf, Frage 28) · 03.10.2026 14:50 (Dauerlauf: Senden der sechs freigegebenen Texte gescheitert, Chrome nicht eingeloggt) · 03.10.2026 (Dauerlauf, Tagesprüfung: alle 19 Links live geprüft, Zeitangaben in Nr 11–15 nachgezogen) · 01.10.2026 abends (Kontakte live nachgeprüft: Kleve gelöscht, drei Texte sendefertig; fünf neue Kandidaten Nr 11–15 mit Entwürfen) · 05.10.2026 15:40 (Dauerlauf, Dauerauftrag Mails Tag 1: drei Gmail-Entwürfe an Podcasts, die Gäste einladen, liegen; keine Verkaufs-Mail; Namen, Urteil und Links in `~/allein/ENTWUERFE-LISTE.md`, Senden = Felix)
+**Führendes Dokument:** `~/sprint/ANGEBOT.md` (Angebot) · `~/sprint/KONTAKTE.md` (Verkauf, gitignored, nie committen) · Wette 20 in `~/kybernokratie/WETTBUCH.md`
+**Phase:** Angebot live, Impressum vollständig. Null Kunden, **noch keine einzige Nachricht gesendet**.
 
 ## Wo wir stehen
 
-Das Angebot ist in einem Fünf-Stufen-Interview entstanden und vollständig in
-ANGEBOT.md festgehalten. Kurzform: **Der Sprint**, 1:1, sechs Wochen, ein Ding
-live, 3.000 € voll auch im Pilot, maximal drei Kunden gleichzeitig, zehn Stunden
-pro Woche Aufwand. Zielgruppe sind Solo-Selbstständige, die seit Monaten etwas
-Digitales fertig haben wollen und es allein nicht schaffen. Verkauft wird nicht
-"wie man Claude benutzt", sondern die Arbeitsweise (Reihenfolge, Übergaben,
-Feierabend, Kill-Kriterien). Garantie: weiter ohne Aufpreis, bis es steht,
-solange der Kunde seine Termine hält. Erstfrage an jeden Interessenten:
-"Seit wie vielen Monaten willst du das schon fertig haben?" — ab sechs ist Druck.
-
-Felix' Rolle heißt Bauleiter, nicht Coach und nicht Mentor. Der Sprint ist
-ausdrücklich Brücke, nicht Ziel: Er finanziert den Ausstieg aus der Ausbildung
-und die Zeit für Guard und das Spiel.
-
-Gestrichen im Interview: Kommunen, Kurs, Community, "Druck verkaufen". Den
-Filter aus GUARD.md ("stärkt es die Großen?") hat Felix für diesen Fall
-aufgehoben, mit dem Hinweis, dass jeder Kunde danach monatlich an Anthropic zahlt.
-
-Gebaut heute: Repo Felix3c/sprint, Seite in site/ im Doorway-Stil, Veröffentlichung
-über .github/workflows/pages.yml. **Live seit 15.09. abends unter
-https://felix3c.github.io/sprint/** Der erste Lauf war rot, weil der Workflow
-GitHub Pages nicht selbst einschalten darf — die Quelle steht jetzt in den
-Repo-Einstellungen auf "GitHub Actions". Arbeitsverzeichnis sauber, alles gepusht.
-
-Ehrlicher Stand: null Fremdergebnisse, null Verkäufe, kein warmes Netz. Felix
-kennt niemanden persönlich, der in die Zielgruppe fällt. Der erste Kunde kommt
-nur über das, was öffentlich sichtbar ist: belegbar.eu, Doorway, Festgehalten.
+- **Seite live** unter https://felix3c.github.io/sprint/. `master` = `origin/master` = `fc9d4b9`.
+- **Wette 20 (privat):** bis 31.10.2026 zahlt ein Fremder den Sprint. Felix 0,10, Computer 0,35. Noch 23 Tage (Stand 08.10.).
+- **Live-Prüfung 01.10. (Claude, curl):**
+  - Nr 4 Kleve: Anzeige **gelöscht** (URL leitet auf Kategorie Kleve um), nie gesendet, raus.
+  - Nr 3 Mühltal, Nr 2 Büren: online. Nr 1 danikasi: Thread online, Shop-Link jetzt 404 „Shop nicht verfügbar".
+  - Die drei Texte mit heutigem Stand stehen in `KONTAKTE.md`, Abschnitt **„Sendefertig, Stand 01.10.2026"**.
+- **Tagesprüfung 03.10. (Dauerlauf, curl mit Ziel-URL):** alle Kleinanzeigen-Gesuche Nr 2, 3, 5, 7, 8, 10–15 und R5, R6 live, keine Umleitung, kein „reserviert“; Shopify-Threads Nr 1 und R1–R4 online; Nr 1 Shop-Link weiter 404; Nr 9 (Mastodon) online. Die drei sendefertigen Texte passen ohne Änderung; in den Entwürfen 11–15 „gestern“/„heute, am 01.10.“ auf feste Daten bzw. 03.10. gezogen. Noch immer nichts gesendet, also auch keine Antworten. Wette 20: noch 28 Tage.
+- **Senden 03.10. 14:50 (Dauerlauf):** Freigabe Felix 03.10. für Nr 3, 2, 1, 11, 12, 13. Alle sechs live geprüft (online, URLs unverändert, Shopify-Thread offen). **Nicht gesendet:** Das chrome-devtools-Chrome des Dauerlaufs hat ein eigenes Profil (`~/.cache/chrome-devtools-mcp/chrome-profile`) und ist weder bei Kleinanzeigen noch in der Shopify-Community eingeloggt. Nächster Handgriff Felix: selbst senden oder einmal in diesem Chrome einloggen, dann sendet der Dauerlauf.
+- **Neue Kandidaten 01.10. (Unteragent, live geprüft, nicht gesendet):** Nr 11 Markus Erfurt (Website mit Claude Design gebaut, hängt am Livegang, stärkster Fund), Nr 12 ONNAZ Petershagen NRW (Amazon-Seller-Verifizierung, bezahlter Probeauftrag), Nr 13 Hamburg (Shopify-Theme-Wechsel, 12 Wochen aktiv), Nr 14 Wenzendorf (Webflow, Geschäftszweck unbelegt), Nr 15 Mönchengladbach NRW (eher Werbung als Fertigstellung). Entwürfe in `KONTAKTE.md`, Abschnitt „Entwürfe 01.10.2026 (neue Kandidaten)".
+- **Suche 03.10. 15:20–15:42 (Dauerlauf, Unteragent):** ~120 Suchwörter, ~1.870 Kleinanzeigen-Gesuche 03.07.–03.10., Shopify-Community DE, de.wordpress.org-Forum, Mastodon. **Kein neuer Kandidat erfüllt das Raster** (Halbfertiges scheitert an „kostenlos“/„Mitgründer“/„Firma“, Passendes ist Neubau). Bester Grenzfall **Nr 16 Düsseldorf Event-Plattform** (seit 19.08. aktiv, kein Preis, Neubau) mit Entwurf in `KONTAKTE.md` „Grenzfall 03.10.2026“; ob Neubau-Gesuche, die seit Wochen unbeantwortet sind, ins Raster dürfen = Frage 28 an Felix. Sendefertig bleiben sechs (3, 2, 1, 11, 12, 13), Ziel zehn. Kleinanzeigen zeigt je Kategorie nur 50 Seiten (≈ 2–9 Tage) → nächster Suchlauf frühestens ~10.10.
+- **Suche 08.10. 07:40–08:16 (Dauerlauf, Unteragent, nur Gesuche seit 03.10.):** 145 Suchwörter, ~4.400 Kleinanzeigen-Einträge, Shopify-Community DE, de.wordpress.org, Mastodon (14 Hashtags). **Ein neuer Kandidat: Nr 17 Rheinberg NRW** (Kleinanzeigen 3533042507, 06.10., fast fertige Webanwendung vor dem Livegang: Stripe-Webhooks, Magic-Link, Cloudflare; will Backend-/Security-Erfahrung, „keine WordPress-/Webdesign-Angebote“; seit wann sie hängt, ungeklärt). Entwurf in `KONTAKTE.md` Abschnitt „Suche 08.10.2026“, Frage 198. Grenzfälle G7–G12, ~30 ausgeschlossen. Damit 8 sendefertig statt 10. Nächster Suchlauf frühestens ~13.10.
+- **Abend-Prüfung 08.10. 20:27 (Dauerlauf, curl mit Ziel-URL):** Nr 11, 12, 3, 13, 2, 16 und Nr 17 auf Kleinanzeigen HTTP 200, Ziel-URL unverändert, nicht reserviert (der Treffer „reserviert“ bei Nr 16 steht im Anzeigentext: „freie, reservierte und gebuchte Termine“); Shopify-Thread Nr 1 und Sprint-Seite HTTP 200. Die Texte in `intern/SENDEN.md` passen weiter. Nr 17 kommt erst nach „a“ zu Frage 198 in die Sende-Liste.
+- **Suchraster (beschlossen Felix 03.10. per Mail):** Person, echtes Geschäftsmodell, Budget ab ~500 € oder kein Preis, hängt seit Wochen fest, Gesuch höchstens 3 Monate alt.
+- Hinweis Suche: Kleinanzeigen-Filter `s-anzeigeart:gesuche` wirkt nicht mehr, nur `s-anzeige:gesuche/<suchwort>/k0`. Gelöschte Anzeigen geben HTTP 200 per Redirect auf die Kategorie, immer Ziel-URL prüfen.
+- **Uncommittet, nicht von dieser Sitzung:** `ANGEBOT.md` (§ 19 UStG-Satz), `.gitignore` untracked. Nicht angefasst.
 
 ## Nächster konkreter Schritt
 
-Anschrift ins Impressum eintragen (site/impressum.html, Zeile mit
-`[Straße und Hausnummer]` und `[PLZ Ort]`), committen, pushen. Vorher darf der
-Link nirgends verbreitet werden: ein gewerbliches Angebot ohne vollständiges
-Impressum ist abmahnbar.
+**Felix sendet die sieben Texte aus `intern/SENDEN.md`** (Nr 11, 12, 3, 13, 2, 16, 1; Link und Text stehen je untereinander, etwa 15 Minuten). Danach Status-Spalte in `KONTAKTE.md` auf „gesendet <Datum>". An einem anderen Tag als dem 05.10. nur die fett markierten Datumsstellen in Nr 13 und Nr 16 anpassen. Kommt eine Antwort: `intern/GESPRAECH.md`, nach einem Ja `intern/VEREINBARUNG.md`, `RECHNUNG.md`, `WOCHE-1.md`.
 
 ## Wartet auf Felix
 
-- Die Anschrift fürs Impressum. Ungeklärt, ob Köln oder die Adresse der Eltern
-  gemeint sein soll — Felix hat das im Gespräch nicht gesagt.
-- Ob die Kontaktadresse auf der Seite die Gmail bleiben soll.
-- Ob der Sprint einen eigenen Tab in REIHENFOLGE.txt bekommt. Steht heute unter
-  "NEBENPROJEKT (kein Tab)", weil Felix das nicht entschieden hat.
-- Abnahme der Seite: liest sie sich so, wie er gehört werden will?
+- Die drei Texte senden (nur er kann).
+- ~~Nr 11–15~~ entschieden 03.10.: Nr 11 sofort, Nr 12/13 danach, Nr 14/15 gestrichen. Senden der Texte Nr 3, 2, 1 und 11–13 über Felix' Chrome freigegeben (Mail 03.10.), Dauerlauf erledigt das als eigene Aufgabe.
+- `ANGEBOT.md`-Änderung (§ 19 UStG) prüfen und committen oder verwerfen.
 
 ## Blocker
 
-Keiner für den nächsten Schritt außer der fehlenden Anschrift. Danach folgt
-Schritt 2 aus ANGEBOT.md: zehn Solo-Selbstständige auf LinkedIn anschreiben,
-erste Nachricht ist nur die Sechs-Monate-Frage, kein Pitch.
+Keiner. Es fehlt nur Felix' Zeit zum Senden.
 
 ## Nicht tun
 
-- Preis nicht unter 3.000 € anbieten, auch nicht "als Pilot"
-- Kein Kurs, keine Community, kein Publikumsaufbau, bevor drei Fälle stehen
-- Die Behauptung "nur 1 % der Menschheit zahlt für ein KI-Abo" ist unbelegt und
-  darf so nicht auf die Seite
+- Preis nicht unter 3.000 €, auch nicht „als Pilot".
+- `KONTAKTE.md` nie committen: das Repo ist öffentlich.
+- Kein Angebot und kein Link im ersten Text, nur Befund und Frage.
